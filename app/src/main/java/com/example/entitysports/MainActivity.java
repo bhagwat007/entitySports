@@ -2,10 +2,10 @@ package com.example.entitysports;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     //**Open new Season_Actitvity from main page
 
-        TextView season = (TextView) findViewById(R.id.season);
+        LinearLayout season = (LinearLayout) findViewById(R.id.seasonB);
         season.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
          //Open new page HomeActivity
-        });  TextView home = (TextView) findViewById(R.id.home);
+        });  LinearLayout home = (LinearLayout) findViewById(R.id.homeB);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
          //Open new page MenuActivity
-        });  TextView menu = (TextView) findViewById(R.id.menu);
+        });  LinearLayout menu = (LinearLayout) findViewById(R.id.menuB);
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-        });  TextView stats = (TextView) findViewById(R.id.stats);
+        });  LinearLayout stats = (LinearLayout) findViewById(R.id.statsB);
         stats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

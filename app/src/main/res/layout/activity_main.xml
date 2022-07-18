@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_weight="1"
+        android:id="@+id/homeB"
         android:orientation="vertical">
 
         <ImageView
@@ -28,7 +29,7 @@
 
         <TextView
 
-            android:id="@+id/home"
+            android:id="@+id/homeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -45,6 +46,7 @@
     android:layout_height="wrap_content"
     android:layout_weight="1"
     android:layout_gravity="bottom"
+    android:id="@+id/seasonB"
     android:orientation="vertical">
 
     <ImageView
@@ -55,7 +57,7 @@
         android:textAlignment="center"/>
 
     <TextView
-        android:id="@+id/season"
+        android:id="@+id/seasonText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -71,6 +73,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
+    android:id="@+id/statsB"
     android:layout_gravity="bottom"
     android:orientation="vertical">
 
@@ -82,7 +85,7 @@
         android:textAlignment="center"/>
 
     <TextView
-        android:id="@+id/stats"
+        android:id="@+id/statsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -97,6 +100,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
+    android:id="@+id/menuB"
     android:layout_gravity="bottom"
     android:orientation="vertical">
 
@@ -107,7 +111,7 @@
         android:textAlignment="center"
         android:layout_gravity="center_horizontal"/>
     <TextView
-        android:id="@+id/menu"
+        android:id="@+id/menuText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
