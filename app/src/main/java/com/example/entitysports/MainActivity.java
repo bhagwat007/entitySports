@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     //**Open new Season_Actitvity from main page
 
+        //in this seasonB is id for linearlayout there for we use Linearlayout ----- = (LinearLayout)--------(R.id.---)
         LinearLayout season = (LinearLayout) findViewById(R.id.seasonB);
         season.setOnClickListener(new View.OnClickListener() {
             @Override

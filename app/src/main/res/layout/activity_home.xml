@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".HomeActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/ipl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|center_horizontal"
+        android:padding="2dp"
+        android:text="India Premier League"
+        android:textSize="16dp"
+        android:background="@color/Earthy"/>
+
+    <TextView
+        android:id="@+id/icc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|center_horizontal"
+        android:padding="2dp"
+        android:text="ICC Champions Trophy"
+        android:textSize="16dp"
+        android:background="@color/Earthy" />
+
+    <TextView
+        android:id="@+id/indiaS"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|center_horizontal"
+        android:padding="2dp"
+        android:text="India tour of Sri Lanka"
+        android:textSize="16dp"
+        android:background="@color/Earthy"/>
+
+
+
+
+</LinearLayout>
