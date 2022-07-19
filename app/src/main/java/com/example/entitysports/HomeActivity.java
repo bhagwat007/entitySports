@@ -19,6 +19,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+
+        //open new activity for ipl from Home Page
         TextView stats = (TextView) findViewById(R.id.ipl);
         stats.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +31,7 @@ public class HomeActivity extends AppCompatActivity {
             }
 
         });
+        // open new activity for icc match from Home page
         TextView icc = (TextView) findViewById(R.id.icc);
         icc.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +42,7 @@ public class HomeActivity extends AppCompatActivity {
             }
 
         });
+        // open new activity for india vs sri lank from Home page
         TextView Isri = (TextView) findViewById(R.id.indiaS);
         Isri.setOnClickListener(new View.OnClickListener() {
             @Override
