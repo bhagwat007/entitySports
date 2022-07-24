@@ -36,12 +36,12 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
+        android:background="@color/Earthy"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center|center_horizontal"
         android:padding="2dp"
         android:text="India tour of Sri Lanka"
-        android:textSize="16dp"
-        android:background="@color/Earthy"/>
+        android:textSize="16dp" />
 
 
 

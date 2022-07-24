@@ -43,8 +43,8 @@ public class HomeActivity extends AppCompatActivity {
 
         });
         // open new activity for india vs sri lank from Home page
-        TextView Isri = (TextView) findViewById(R.id.indiaS);
-        Isri.setOnClickListener(new View.OnClickListener() {
+        TextView IvsSri = (TextView) findViewById(R.id.indiaS);
+        IvsSri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent numbersIntent = new Intent(HomeActivity.this,FhActivity3.class);
