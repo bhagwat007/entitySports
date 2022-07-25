@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import com.example.entitysports.databinding.ActivityMainBinding;
 
 
-public class  MainActivity extends AppCompatActivity {
+public class  MainActivity extends DrawerBaseActivity {
 
 
     ActivityMainBinding activityMainBinding;

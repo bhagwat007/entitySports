@@ -14,9 +14,6 @@
         android:theme="@style/Theme.EntitySports"
         tools:targetApi="31">
         <activity
-            android:name=".DashboardActivity"
-            android:exported="false" />
-        <activity
             android:name=".DrawerBaseActivity"
             android:exported="false" />
         <activity
